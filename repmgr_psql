@@ -1,0 +1,3 @@
+createuser -s repmgr
+createdb repmgr -O repmgr
+ALTER USER repmgr SET search_path TO repmgr, "$user", public;
