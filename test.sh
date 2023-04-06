@@ -1,1 +1,1 @@
-postgresql-12-repmgr
+apt install postgresql-12-repmgr
